@@ -1,0 +1,13 @@
+{
+  "name": "quickdeploy",
+  "version": "1.0.0",
+  "description": "Genel amaçlı build ve FTP upload aracı",
+  "main": "deploy.js",
+  "scripts": {
+    "start": "./quickdeploy.sh yardim"
+  },
+  "dependencies": {
+    "basic-ftp": "^5.0.3",
+    "dotenv": "^16.3.1"
+  }
+}
