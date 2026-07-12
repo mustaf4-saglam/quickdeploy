@@ -23,12 +23,18 @@ git clone https://github.com/mustaf4-saglam/quickdeploy.git
 cd quickdeploy
 ```
 ## 2. Gerekli Node.js bağımlılıklarını (basic-ftp, dotenv) yükleyin: 
-``` bash npm install ```
+``` bash 
+npm install
+```
 
-3. Bash betiğine çalıştırma (execute) yetkisi verin:
-```bash chmod +x quickdeploy.sh```
-⚙️ Yapılandırma (İlk Kullanım)Aracı kullanmaya başlamadan önce projenize özel ayarları yapmanız gerekir. Terminalde aşağıdaki komutu çalıştırarak yapılandırma sihirbazını başlatın:
-``` bash ./quickdeploy.sh ayarla ```
+## 3. Bash betiğine çalıştırma (execute) yetkisi verin:
+``` bash
+chmod +x quickdeploy.sh
+```
+## ⚙️ Yapılandırma (İlk Kullanım)Aracı kullanmaya başlamadan önce projenize özel ayarları yapmanız gerekir. Terminalde aşağıdaki komutu çalıştırarak yapılandırma sihirbazını başlatın:
+``` bash
+ ./quickdeploy.sh ayarla
+```
 Sihirbaz size proje adınızı, derleme komutunuzu (örn: npm run build), çıktı klasörünüzü ve FTP bilgilerinizi soracaktır. Girilen bu bilgiler güvenli bir şekilde .deploy.env dosyasına kaydedilir.
 Not: .deploy.env dosyası hassas veriler (şifreler) içerdiği için repoya gönderilmemesi adına otomatik olarak .gitignore listesine eklenir.🚀
 Yalnızca değiştirdiğiniz 3-5 dosyayı tespit edip FTP'ye saniyeler içinde yükler.📄
